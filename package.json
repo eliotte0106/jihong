@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "2.0.0",
-  "homepage": "https://eliotte0106.github.io/",
+  "homepage": "https://eliotte0106.github.io/jihong",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.19.3",
