@@ -4,6 +4,8 @@ import mock2 from "../img/rdbms.png"
 import mock3 from "../img/vip.png"
 import mock4 from "../img/cv.png"
 import mock6 from "../img/hongs.png"
+import mock7 from "../img/ML.png"
+import mock8 from "../img/versus.png"
 
 export let colors = ["rgb(86, 201, 44)", "rgb(227, 230, 183)"];
 
@@ -56,11 +58,11 @@ export const info = {
         },
 
     ],
-    bio: "Hello! I'm Jihong. I'm a cs student at Georgia Tech. I'm interested in software engineering including full-stack engineering and data science. I hope to work with you!",
+    bio: "Hello! I'm Jihong. I'm a Computer Science student at Georgia Tech. I'm interested in software engineering including full-stack engineering and mobile app development",
     skills:
         {
-            Programming: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html', 'css', 'java', 'python', 'sql', 'tableau'],
-            Concepts: ['OOD', 'Data Structure', ,'Software Development', 'Database System', 'Computer Vision', 'Machine Learning']
+            Programming: ['javascript', 'java', 'python', 'kotlin', 'C', 'C++', 'typescript'],
+            Concepts: ['Object Oriented Programming', 'Data Structure', ,'Software Development','Agile Development', 'Database System Management', 'Computer Vision', 'Machine Learning', 'Problem Solving']
         }
     ,
     hobbies: [
@@ -92,7 +94,7 @@ export const info = {
             image: mock2
         },
         {
-            title: "Georgia Tech Dashboard Team Project",
+            title: "Georgia Tech VIP Big Data",
             live: "https://irp.gatech.edu/",
             source: "https://github.gatech.edu/Getting-to-know-U",
             image: mock3
@@ -109,5 +111,17 @@ export const info = {
             source: "https://github.com/eliotte0106/Comp-Vision",
             image: mock4
         },
+        {
+            title: "Machine Learning Team Project",
+            live: "https://github.gatech.edu/pages/jpark3027/ML-Project/",
+            source: null,
+            image: mock7
+        },
+        {
+            title: "Blog Individual Project",
+            live: null,
+            source: "https://github.com/eliotte0106/Versus",
+            image: mock8
+        }
     ]
 }
