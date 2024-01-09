@@ -101,7 +101,7 @@ export const info = {
         },
         {
             title: "E-commerce Website Individual Project",
-            live: "https://github.com/eliotte0106/Hongs/blob/main/README.md",
+            live: null,
             source: "https://github.com/eliotte0106/Hongs",
             image: mock6
         },
