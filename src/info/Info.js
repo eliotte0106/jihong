@@ -123,5 +123,45 @@ export const info = {
             source: "https://github.com/eliotte0106/Versus",
             image: mock8
         }
+    ],
+    education: {
+        school: "Georgia Institute of Technology",
+        term: "Aug 2021 - May 2024",
+        type: "Bachelor of Science in Computer Science"
+    },
+    experience: [
+        {
+            title: 'Engineer of Production Team',
+            company: 'ATL Plastic',
+            term: "Dec 2018 - Aug 2020",
+            work: [
+                    "• Used State-of-the-Art Machinery which allows engineers to turn around orders in quick time frame and reduce the manufacturing cost",
+                    "• Created nail, jewelry, souvenir displays as counter-top or floor standing with different size, shapes, and materials to match needs",
+                    "• Designed illuminated or Non-Illuminated displays for customers"
+                    ]
+        },
+        {
+            title: 'Undergraduate Engineer',
+            company: 'Big Data VIP',
+            term: "Aug 2022 - Dec 2023",
+            work: [
+                    "• Collected large volume of data related to information of students, faculty, and staff from GT",
+                    "• Created data visualizations including dashboards, and GUIs from possible user stories",
+                    "• Used various skills such as Python, Javascript, and Git to use data from GT database/URLs",
+                    "• Regularly met with team members/stakeholders to demo the product and assess their needs"
+                    ]
+        },
+        {
+            title: 'SWE Intern',
+            company: 'Fanduel',
+            term: "Jun 2023 - Aug 2023",
+            work:[
+                "• Contributed to mobile application development (Android) in Daily Fantasy Sportsbook team",
+                "• Implemented a new feature “Shadow Contests” for employees to join daily contests internally",
+                "• Constructed API endpoints (GraphQL) and modified data to be used in the application",
+                "• Created an idea as a hackathon project for a better customer experience from the product",
+                "• Regularly met with product/engineering teams to discuss fixing bugs/future plans in products"
+                ]
+        }
     ]
 }

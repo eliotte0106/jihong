@@ -10,12 +10,16 @@ export default function About() {
 
     function aboutMeText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
-                about{firstName} </p>
-            <p><span style={{color: info.baseColor}}>about{firstName} <span
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd {firstName}/education </p>
+            <p><span style={{color: info.baseColor}}>{firstName}/education <span
                 className={Style.green}>(main)</span> $ </span>
-                {info.bio}
+                ls -a
             </p>
+            <ul>
+                <li>School: {info.education.school} </li>
+                <li>Term: {info.education.term} </li>
+                <li>Type: {info.education.type} </li>
+            </ul>
         </>;
     }
 
@@ -39,12 +43,20 @@ export default function About() {
     function miscText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
-                hobbies/interests</p>
-            <p><span style={{color: info.baseColor}}>hobbies/interests <span
+                resume/experience</p>
+            <p><span style={{color: info.baseColor}}>resume/experience <span
                 className={Style.green}>(main)</span> $</span> ls -a</p>
             <ul>
-                {info.hobbies.map((hobby, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
+                {info.experience.map((exp, index) => (
+                    <li key={index}><Box component={'span'} mr={'1rem'}>{}</Box>
+                        <li>Title: {exp.title} </li>
+                        <li>Company: {exp.company} </li>
+                        <li>Date: {exp.term} </li>
+                        <li>Work: {exp.work.map((work, index) => (
+                            <div key={index}>{work} </div>
+                        ))}
+                        </li>
+                    </li>
                 ))}
             </ul>
         </>;
