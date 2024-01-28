@@ -6,6 +6,7 @@ import mock4 from "../img/cv.png"
 import mock6 from "../img/hongs.png"
 import mock7 from "../img/ML.png"
 import mock8 from "../img/versus.png"
+import mock9 from "../img/safecar.png"
 
 export let colors = ["rgb(86, 201, 44)", "rgb(227, 230, 183)"];
 
@@ -19,13 +20,13 @@ export const info = {
     baseColor: colors[0],
     miniBio: [
         {
-            emoji: '☕',
-            text: 'likes coffee'
+            emoji: '💻',
+            text: 'Software Engineer'
         },
-        {
-            emoji: "🐶",
-            text: "loves dog"
-        },
+        // {
+        //     emoji: "🐶",
+        //     text: "loves dog"
+        // },
         {
             emoji: '🇺🇸',
             text: 'based in Atlanta, Georgia'
@@ -122,6 +123,12 @@ export const info = {
             live: null,
             source: "https://github.com/eliotte0106/Versus",
             image: mock8
+        },
+        {
+            title: "iOS App Individual Project",
+            live: null,
+            source: "https://github.com/eliotte0106/MAS-iOS",
+            image: mock9
         }
     ],
     education: {

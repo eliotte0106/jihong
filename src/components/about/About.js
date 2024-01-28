@@ -13,7 +13,7 @@ export default function About() {
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd {firstName}/education </p>
             <p><span style={{color: info.baseColor}}>{firstName}/education <span
                 className={Style.green}>(main)</span> $ </span>
-                ls -a
+                cat academics
             </p>
             <ul>
                 <li>School: {info.education.school} </li>

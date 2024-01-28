@@ -6,15 +6,20 @@ import {Box} from "@mui/material";
 import {info} from "../info/Info";
 
 const links = [
-    {
-        name: 'Home',
-        to: '/',
-        active: 'home'
-    },
+    // {
+    //     name: 'Home',
+    //     to: '/',
+    //     active: 'home'
+    // },
     {
         name: 'Resume',
         to: '/about',
         active: 'about'
+    },
+    {
+        name: 'Portfolio',
+        to: '/portfolio',
+        active: 'portfolio'
     },
     {
         name: info.initials,
@@ -23,9 +28,9 @@ const links = [
         active: 'home'
     },
     {
-        name: 'Portfolio',
-        to: '/portfolio',
-        active: 'portfolio'
+        name: 'Cover Letter',
+        to: '/coverletter',
+        active: 'coverletter'
     }
 ]
 
