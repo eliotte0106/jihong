@@ -29,7 +29,7 @@ export const info = {
         // },
         {
             emoji: '🇺🇸',
-            text: 'based in Atlanta, Georgia'
+            text: 'Based in Atlanta, Georgia'
         },
         {
             emoji: "🧑‍🎓",
@@ -83,7 +83,7 @@ export const info = {
     ],
     portfolio: [
         {
-            title: "Game App Team Project",
+            title: "Android App Team Project",
             live: "https://youtu.be/0Z6jgXnfAbk",
             source: "https://github.gatech.edu/Team-108",
             image: mock1
