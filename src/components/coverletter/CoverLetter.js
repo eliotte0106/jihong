@@ -6,7 +6,7 @@ import Container from '@mui/material/Container';
 export default function CoverLetter() {
     return(
     <Container>
-    <Box border={'2px solid grey'} display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'} marginTop={20} marginLeft={20} marginRight={20}>
+    <Box border={'2px solid grey'} display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'} marginTop={10} marginLeft={20} marginRight={20}>
       <div className={Style.CoverLetter}>
         <header>
           <p className={Style.cover}>Dear Hiring Manager,</p>
