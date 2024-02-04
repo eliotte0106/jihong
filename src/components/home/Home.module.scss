@@ -37,6 +37,10 @@ a:hover {
   transition: color 200ms ease;
 }
 
+.temp {
+  font-size: 18px;
+}
+
 @keyframes wave {
   0% { transform: rotate( 0.0deg) }
   10% { transform: rotate(14.0deg) }

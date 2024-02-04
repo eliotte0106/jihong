@@ -19,26 +19,26 @@ export const info = {
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
     baseColor: colors[0],
     miniBio: [
-        {
-            emoji: '💻',
-            text: 'Software Engineer'
-        },
+        // {
+        //     emoji: '💻',
+        //     text: 'Software Engineer'
+        // },
         // {
         //     emoji: "🐶",
         //     text: "loves dog"
         // },
-        {
-            emoji: '🇺🇸',
-            text: 'Based in Atlanta, Georgia'
-        },
-        {
-            emoji: "🧑‍🎓",
-            text: "Student at Georgia Tech"
-        },
+        // {
+        //     emoji: '🇺🇸',
+        //     text: 'Based in Atlanta, Georgia'
+        // },
+        // {
+        //     emoji: "🧑‍🎓",
+        //     text: "Student at Georgia Tech"
+        // },
         {
             emoji: "📧",
             text: "jihong2253@gmail.com / jpark3027@gatech.edu"
-        },
+        }
     ],
     socials: [
 
@@ -52,11 +52,11 @@ export const info = {
             icon: "fa fa-github",
             label: 'github'
         },
-        {
-            link: "https://www.linkedin.com/in/jihong-park-102673224/",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
-        },
+        // {
+        //     link: "https://www.linkedin.com/in/jihong-park-102673224/",
+        //     icon: "fa fa-linkedin",
+        //     label: 'linkedin'
+        // },
 
     ],
     bio: "Hello! I'm Jihong. I'm a Computer Science student at Georgia Tech. I'm interested in software engineering including full-stack engineering and mobile app development",
@@ -119,14 +119,14 @@ export const info = {
             image: mock7
         },
         {
-            title: "Blog Individual Project",
+            title: "Web Individual Project",
             live: null,
             source: "https://github.com/eliotte0106/Versus",
             image: mock8
         },
         {
             title: "iOS App Individual Project",
-            live: null,
+            live: "https://www.youtube.com/watch?v=d9Uew2PoKQ0",
             source: "https://github.com/eliotte0106/MAS-iOS",
             image: mock9
         }

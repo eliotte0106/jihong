@@ -20,6 +20,16 @@ export default function Home() {
             </h1>
             {/* <h2>I'm {info.position}.</h2> */}
             <Box component={'ul'} p={'0.8rem'}>
+            <p className={Style.temp}>
+               My name is Jihong and I'm currently a 4-th year Computer Science student at Georgia Tech.<br />
+               I'm a software engineer who is eager to find solutions to build a powerful product for customers<br /> and users.
+               My biggest interests are full-stack engineering and mobile app development.<br />
+               I enjoy learning new tools, concepts, and programming languagues to grow technical skills.<br />
+               In addition to my technical skills, I love to talk about tech related stuff, trending skills,
+               and <br />any interesting ideas. I'm happy to share my resume, experience, projects, skills, and cover letter <br />with you.
+               Feel free to contact me through email or Linkedin.<br />
+            </p>
+            <br />
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}
