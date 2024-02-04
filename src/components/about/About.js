@@ -16,9 +16,10 @@ export default function About() {
                 cat academics
             </p>
             <ul>
-                <li>School: {info.education.school} </li>
-                <li>Term: {info.education.term} </li>
-                <li>Type: {info.education.type} </li>
+                <li>{info.education.school} </li>
+                <li>{info.education.type} </li>
+                <li>Concentration: {info.education.concentration} </li>
+                <li>{info.education.term} </li>
             </ul>
         </>;
     }

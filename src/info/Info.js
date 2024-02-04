@@ -62,8 +62,8 @@ export const info = {
     bio: "Hello! I'm Jihong. I'm a Computer Science student at Georgia Tech. I'm interested in software engineering including full-stack engineering and mobile app development",
     skills:
         {
-            Programming: ['javascript', 'java', 'python', 'kotlin', 'C', 'C++', 'typescript'],
-            Concepts: ['Object Oriented Programming', 'Data Structure', ,'Software Development','Agile Development', 'Database System Management', 'Computer Vision', 'Machine Learning', 'Problem Solving']
+            Programming: ['Javascript', 'Java', 'Python', 'Kotlin', 'C', 'C++', 'Typescript', 'Swift'],
+            Concepts: ['Object Oriented Programming', 'Data Structure', ,'Software Development','Agile Development', 'Database System Management', 'Computer Vision', 'Machine Learning', 'Problem Solving', 'Mobile/Web App Development', 'Algorithms']
         }
     ,
     hobbies: [
@@ -86,55 +86,88 @@ export const info = {
             title: "Android App Team Project",
             live: "https://youtu.be/0Z6jgXnfAbk",
             source: "https://github.gatech.edu/Team-108",
+            description: [
+                "• Andorid mobile game app development",
+                "• Tower defense game with basic funtionalities"
+                    ],
             image: mock1
         },
         {
             title: "DBMS Team Project",
             live: "https://github.com/eliotte0106/CS4400",
             source: "https://github.com/eliotte0106/CS4400",
+            description: [
+                "• Database Management System Project",
+                "• Database setup for drone delivery system using MySQL"
+                    ],
             image: mock2
         },
         {
             title: "Georgia Tech VIP Big Data",
             live: "https://irp.gatech.edu/",
             source: "https://github.gatech.edu/Getting-to-know-U",
+            description: [
+                "• GT VIP Program Junior Design Project",
+                "• Analyzed data retrieved from GT server and created products"
+                    ],
             image: mock3
         },
         {
-            title: "E-commerce Website Individual Project",
+            title: "Website Individual Project",
             live: null,
             source: "https://github.com/eliotte0106/Hongs",
+            description: [
+                "• Web app project based on E-commerce",
+                "• Created with Javascript with various frameworks"
+                    ],
             image: mock6
         },
         {
             title: "Computer Vision Individual Project",
             live: "https://github.com/eliotte0106/Comp-Vision/blob/main/project-1/project-1.ipynb",
             source: "https://github.com/eliotte0106/Comp-Vision",
+            description: [
+                "• AI course project from Georgia Tech",
+                "• Used CV algorithms and functions to complete projects"
+                    ],
             image: mock4
         },
         {
             title: "Machine Learning Team Project",
             live: "https://github.gatech.edu/pages/jpark3027/ML-Project/",
             source: null,
+            description: [
+                "• AI course team project from Georgia Tech",
+                "• Used ML algorithms and concepts to analyze Darknet Traffic"
+                    ],
             image: mock7
         },
         {
             title: "Web Individual Project",
             live: null,
             source: "https://github.com/eliotte0106/Versus",
+            description: [
+                "• Web app project based on blog type website",
+                "• In process"
+                    ],
             image: mock8
         },
         {
             title: "iOS App Individual Project",
             live: "https://www.youtube.com/watch?v=d9Uew2PoKQ0",
             source: "https://github.com/eliotte0106/MAS-iOS",
+            description: [
+                "• Full-stack iOS mobile app project",
+                "• Camera capturing app interacting with Web app"
+                    ],
             image: mock9
         }
     ],
     education: {
         school: "Georgia Institute of Technology",
         term: "Aug 2021 - May 2024",
-        type: "Bachelor of Science in Computer Science"
+        type: "Bachelor of Science in Computer Science",
+        concentration: "Info/Internetwork-Intelligence"
     },
     experience: [
         {
