@@ -42,21 +42,21 @@ export const info = {
     ],
     socials: [
 
-        {
-            link: "https://instagram.com/parkzhong",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
+        // {
+        //     link: "https://instagram.com/parkzhong",
+        //     icon: 'fa fa-instagram',
+        //     label: 'instagram'
+        // },
         {
             link: "https://github.com/eliotte0106",
             icon: "fa fa-github",
             label: 'github'
         },
-        // {
-        //     link: "https://www.linkedin.com/in/jihong-park-102673224/",
-        //     icon: "fa fa-linkedin",
-        //     label: 'linkedin'
-        // },
+        {
+            link: "https://www.linkedin.com/in/jihong-park-102673224/",
+            icon: "fa fa-linkedin",
+            label: 'linkedin'
+        }
 
     ],
     bio: "Hello! I'm Jihong. I'm a Computer Science student at Georgia Tech. I'm interested in software engineering including full-stack engineering and mobile app development",
